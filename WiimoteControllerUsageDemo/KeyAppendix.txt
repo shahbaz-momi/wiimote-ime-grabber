@@ -1,0 +1,78 @@
+**********************************************************************************************
+*****************************  T h e   K e y   A p p e n d i x  ******************************
+**********************************************************************************************
+
+This document describes indexes of currently supported inputs when using the direct interface.
+This document is a part of the source of WiimoteControllerUsageDemo android app project.
+Please retain a copy of this document with the source if you plan on distributing the source.
+
+There are currently  40 key codes supported.  All inputs are digital,  i.e.  true if the input
+would be considered triggered and false otherwise.  Analog sticks are included too - they have
+a user-configurable threshold, common for all directions, after which the event is triggered.
+
+The key codes are displayed below in order.
+
+----------------------------------------------------------------------------------------------
+
+**** Main controller buttons ****
+Key code    Description
+ 0          A key
+ 1          B trigger
+ 2          D-pad up key (portrait orientation)
+ 3          D-pad down key (portrait orientation)
+ 4          D-pad left key (portrait orientation)
+ 5          D-pad right key (portrait orientation)
+ 6          Plus (+) key
+ 7          Minus (-) key
+ 8          One (1) key
+ 9          Two (2) key
+10          Home key
+
+**** Classic controller buttons ****
+Key code    Description
+11          D-pad up key
+12          D-pad left key
+13          ZR shoulder button
+14          X key
+15          A key
+16          Y key
+17          B key
+18          ZL shoulder button
+19          R shoulder button
+20          Plus/Start (+) key
+21          Home key
+22          Minus/Select (-) key
+23          L shoulder button
+24          D-pad down
+25          D-pad right
+
+**** Nunchuk buttons ****
+Key code    Description
+26          Z trigger
+27          C trigger
+
+**** Nunchuk analog stick ****
+Key code    Description
+28          Up over the threshold
+29          Down over the threshold
+30          Left over the threshold
+31          Right over the threshold
+
+**** Classic controller left analog stick ****
+Key code    Description
+32          Up over the threshold
+33          Down over the threshold
+34          Left over the threshold
+35          Right over the threshold
+
+**** Classic controller right analog stick ****
+Key code    Description
+36          Up over the threshold
+37          Down over the threshold
+38          Left over the threshold
+39          Right over the threshold
+
+----------------------------------------------------------------------------------------------
+
+This document was written by Cvetko Pirš as a part of the documentation for the 
+WiimoteControllerUsageDemo project. Copyright 2010 Cvetko Pirš. All right reserved.

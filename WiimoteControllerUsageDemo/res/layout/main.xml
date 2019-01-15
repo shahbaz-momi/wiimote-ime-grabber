@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/connectBtn" android:text="@string/connect_to_service"></Button>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/disconnectBtn" android:text="@string/disconnect_from_service"></Button>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/analogToggleBtn" android:text="@string/toggle_analog_input"></Button>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spacer"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/testPollingFn1Btn" android:text="@string/test_btn_1"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/testPollingFn2Btn" android:layout_width="fill_parent" android:text="@string/test_btn_2"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/testPollingFn3Btn" android:layout_width="fill_parent" android:text="@string/test_btn_3"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/testPollingFn4Btn" android:layout_width="fill_parent" android:text="@string/test_btn_4"></Button>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spacer2"></TextView>
+    <TextView android:text="@string/label_text" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+</LinearLayout>

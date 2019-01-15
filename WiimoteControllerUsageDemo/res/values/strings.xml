@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiimoteController Usage Demo</string>
+    
+    <string name="connect_to_service">Connect to service</string>
+    <string name="disconnect_from_service">Disconnect from service</string>
+    <string name="toggle_analog_input">Toggle Analog Input (Nunchuk or C.C.)</string>
+    <string name="test_btn_1">Test getNumberOfConnectedWiimotes()</string>
+    <string name="test_btn_2">Test getButtonStatus(0,0)</string>
+    <string name="test_btn_3">Test getPeripheralId(0)</string>
+    <string name="test_btn_4">Test getAnalogInputStatus(0,0)</string><string name="label_text">This is a DEMO of the direct interface with the WiimoteController app. Controller events and testing results are visible in the logcat.</string>
+</resources>
